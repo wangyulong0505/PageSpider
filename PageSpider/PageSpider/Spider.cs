@@ -260,7 +260,13 @@ namespace PageSpider
 
         #region events
 
+        /// <summary>
+        /// 正文内容被保存到本地后触发
+        /// </summary>
         public ContentsSavedHandler ContentsSaved = null;
+        /// <summary>
+        /// 全部链接下载分析完毕后触发
+        /// </summary>
         public DownloadFinishHandler DownloadFinish = null;
 
         #endregion
